@@ -1,0 +1,12 @@
+<p>assignment2 works!</p>
+
+<label for="username" > User Name:</label> 
+<input type="text"  class="form-control">              
+<br>
+<button type="button"  (click)="delete()"  [disabled]="!isDisable">Reset User</button>
+<br><br> 
+<label for="username">User Name:</label>
+<input type="text" class="form-control" [(ngModel)]="userName">
+<p *ngIf="isDirective" [ngStyle]=>{{userName}}</p> <br>
+<p>{{ userName }}</p>
+<button type="button"  (click)="delete()">Reset User</button>

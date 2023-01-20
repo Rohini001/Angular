@@ -1,0 +1,7 @@
+#warn {
+    background-color: rgb(253, 158, 158);
+    outline: 1px;
+    width: 90%;
+    color: black;
+    border-block-color: red;
+}

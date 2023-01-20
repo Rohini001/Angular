@@ -1,0 +1,7 @@
+#success {
+    background-color: rgb(109, 234, 173);
+    outline: 1px;
+    width: 90%;
+    color: black;
+    border-block-color: green;
+}
